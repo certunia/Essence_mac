@@ -485,10 +485,15 @@
 }
 .browserStack:nth-last-child(3n) > browser,
 .browserStack:nth-last-child(4n) > browser {
-    margin: -10px 0 !important;
     border-radius: 10px !important;
     transition: border-radius 0.2s !important;
 }
+
+/*.browserStack:nth-last-child(3n) > browser, */ /* if uncomment shrinks devtools header bar */
+.browserStack:nth-last-child(4n) > browser {
+    margin: -10px 0 !important;
+}
+
 findbar {
     border-radius: 10px 10px 0 0 !important;
     margin-top: -10px;
