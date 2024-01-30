@@ -684,5 +684,24 @@ findbar {
 }
 
 #tabs-newtab-button > .toolbarbutton-icon {
-    list-style-image: url(window/add.svg) !important;    
+    list-style-image: url(window/add.svg) !important;
+}
+
+/* remove all-tabs, reload and back/forward buttons */
+#reload-button, #stop-button {
+    display: none !important;
+}
+
+#context-navigation,
+#context-sep-navigation {
+    display:none !important;
+}
+
+#back-button,
+#forward-button {
+    display: none !important;
+}
+
+#alltabs-button {
+    display: none !important;
 }
